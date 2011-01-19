@@ -1,0 +1,10 @@
+Demo of Node support for new Ext JS 4 Class Loader
+
+Most of this code is 100% unmodified taken from http://www.sencha.com/blog/2011/01/19/countdown-to-ext-js-4-dynamic-loading-and-new-class-system/
+
+Two new files were added:
+ext-nodebootstrap.js -- Bootstrap file to use for Node support
+nodedemo.js -- Startup file similar to index.html which contains actual application logic
+
+To see example, run:
+node ext-nodebootstrap.js nodedemo.js
